@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T07:58:30.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TV96RqZQJ-sliGYxdowg" version="16.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-03T08:26:30.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="UZJtLrSRR4iovbOqRGx8" version="16.1.0" type="github" pages="6">
   <diagram id="JPfuVKYzG2EsAwyio1zu" name="database">
     <mxGraphModel dx="946" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2145,10 +2145,8 @@
         <mxCell id="6xKk5LOGr_RNpYm2ltez-4" value="&lt;span&gt;表格内是否存在该种原料&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="i7Tzub5C5ianjmYS1knA-1">
           <mxGeometry x="620" y="560" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IB7vt2JjklHFHrTCh8vI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i7Tzub5C5ianjmYS1knA-1" source="6xKk5LOGr_RNpYm2ltez-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="840" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="NIyKiF3tZq5yRpTGh29S-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="i7Tzub5C5ianjmYS1knA-1" source="6xKk5LOGr_RNpYm2ltez-6" target="NIyKiF3tZq5yRpTGh29S-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6xKk5LOGr_RNpYm2ltez-6" value="获取该产品id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i7Tzub5C5ianjmYS1knA-1">
           <mxGeometry x="140" y="720" width="80" height="40" as="geometry" />
@@ -2158,12 +2156,6 @@
         </mxCell>
         <mxCell id="O36ZSf4zuMOTkEH4Ljyp-0" value="新增该产品到产品信息表内并返回产品id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i7Tzub5C5ianjmYS1knA-1">
           <mxGeometry y="580" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FKHXNNzCPT7QaVpXVVCq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i7Tzub5C5ianjmYS1knA-1" source="5M3dQENyRCAMIrC3VDwD-1" target="FKHXNNzCPT7QaVpXVVCq-0">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5M3dQENyRCAMIrC3VDwD-1" value="获取生产状态表内产品标识id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i7Tzub5C5ianjmYS1knA-1">
-          <mxGeometry x="140" y="840" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SYma3rDkuLM8Z7qG9YJa-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="i7Tzub5C5ianjmYS1knA-1" source="FKHXNNzCPT7QaVpXVVCq-0" target="SYma3rDkuLM8Z7qG9YJa-0">
           <mxGeometry relative="1" as="geometry" />
@@ -2192,7 +2184,7 @@
         <mxCell id="SYma3rDkuLM8Z7qG9YJa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i7Tzub5C5ianjmYS1knA-1" source="SYma3rDkuLM8Z7qG9YJa-2" target="SYma3rDkuLM8Z7qG9YJa-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SYma3rDkuLM8Z7qG9YJa-2" value="更新库存表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i7Tzub5C5ianjmYS1knA-1">
+        <mxCell id="SYma3rDkuLM8Z7qG9YJa-2" value="库存表新增记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i7Tzub5C5ianjmYS1knA-1">
           <mxGeometry x="372.75" y="1080" width="81" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SYma3rDkuLM8Z7qG9YJa-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i7Tzub5C5ianjmYS1knA-1" source="SYma3rDkuLM8Z7qG9YJa-3" target="SYma3rDkuLM8Z7qG9YJa-6">
@@ -2218,6 +2210,12 @@
         </mxCell>
         <mxCell id="SYma3rDkuLM8Z7qG9YJa-23" value="入库结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i7Tzub5C5ianjmYS1knA-1">
           <mxGeometry x="385" y="1350" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOiHoXhm1GsMb1p9eoCj-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i7Tzub5C5ianjmYS1knA-1" source="NIyKiF3tZq5yRpTGh29S-0" target="FKHXNNzCPT7QaVpXVVCq-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIyKiF3tZq5yRpTGh29S-0" value="根据产品编号到标识表内获取产品标识id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="i7Tzub5C5ianjmYS1knA-1">
+          <mxGeometry x="140" y="840" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
