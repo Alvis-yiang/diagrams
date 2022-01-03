@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T07:24:59.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="tNxA1Wpg45vvAZjj_F56" version="16.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-03T07:45:17.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="aUNkeArk_L1nPpQdPvMY" version="16.1.0" type="github" pages="6">
   <diagram id="JPfuVKYzG2EsAwyio1zu" name="database">
     <mxGraphModel dx="946" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2369,7 +2369,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BGvTylMypA5_plUOt9cr-0" value="根据产品标识到库存表内将该条记录删除（logic_flag置为0）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="K00gywhaddM3_QyYoQ9J-1">
-          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="339" y="320" width="121" height="40" as="geometry" />
         </mxCell>
         <mxCell id="enBiI73NygMCLg63KQDC-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K00gywhaddM3_QyYoQ9J-1" source="zlIOe8d_POeXwXXkMK_Y-0" target="TVtMCTA1DyB06XwaMAsP-0">
           <mxGeometry relative="1" as="geometry">
@@ -2377,16 +2377,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zlIOe8d_POeXwXXkMK_Y-0" value="更新库存量表内该产品剩余库存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="K00gywhaddM3_QyYoQ9J-1">
-          <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8RqeGpJ9YNCsD5KIHYvk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="K00gywhaddM3_QyYoQ9J-1" source="TVtMCTA1DyB06XwaMAsP-0" target="8RqeGpJ9YNCsD5KIHYvk-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TVtMCTA1DyB06XwaMAsP-0" value="更新产品销售属性表的销售状态为0" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="K00gywhaddM3_QyYoQ9J-1">
-          <mxGeometry x="350" y="670" width="80" height="40" as="geometry" />
+          <mxGeometry x="360" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rx4E9xmjByIND86x6zzz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="K00gywhaddM3_QyYoQ9J-1" source="8RqeGpJ9YNCsD5KIHYvk-0" target="rx4E9xmjByIND86x6zzz-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8RqeGpJ9YNCsD5KIHYvk-0" value="销售表内新增记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="K00gywhaddM3_QyYoQ9J-1">
-          <mxGeometry x="330" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rx4E9xmjByIND86x6zzz-0" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="K00gywhaddM3_QyYoQ9J-1">
+          <mxGeometry x="385" y="790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rx4E9xmjByIND86x6zzz-2" value="销售结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="K00gywhaddM3_QyYoQ9J-1">
+          <mxGeometry x="370" y="820" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2413,8 +2422,20 @@
         <mxCell id="cKJQsx2BKkt-EjEctzlc-9" value="生产计划开始创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cKJQsx2BKkt-EjEctzlc-1">
           <mxGeometry x="345" y="50" width="110" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="vh5qMXoF0-JvYASv1aFP-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKJQsx2BKkt-EjEctzlc-1" source="EvSkSmyTI5by2dD_zyT_-0" target="vh5qMXoF0-JvYASv1aFP-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EvSkSmyTI5by2dD_zyT_-0" value="根据产品id在生产计划表内新增记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="cKJQsx2BKkt-EjEctzlc-1">
           <mxGeometry x="360" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0uQUtoBVCnZYA4higWMR-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKJQsx2BKkt-EjEctzlc-1" source="vh5qMXoF0-JvYASv1aFP-0" target="0uQUtoBVCnZYA4higWMR-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vh5qMXoF0-JvYASv1aFP-0" value="标识表内新建记录，并返回产品标识id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="cKJQsx2BKkt-EjEctzlc-1">
+          <mxGeometry x="360" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0uQUtoBVCnZYA4higWMR-0" value="生产状态表新建记录，生产状态为1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="cKJQsx2BKkt-EjEctzlc-1">
+          <mxGeometry x="360" y="520" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2435,8 +2456,40 @@
         <mxCell id="3rzeb-QBZ-4zEEXuy7DD-4" value="生产开始" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3rzeb-QBZ-4zEEXuy7DD-1">
           <mxGeometry x="370" y="50" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3rzeb-QBZ-4zEEXuy7DD-5" value="制定生产计划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3rzeb-QBZ-4zEEXuy7DD-1">
+        <mxCell id="PAILJvHRi7bPy1Ez557a-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3rzeb-QBZ-4zEEXuy7DD-1" source="3rzeb-QBZ-4zEEXuy7DD-5" target="PAILJvHRi7bPy1Ez557a-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rzeb-QBZ-4zEEXuy7DD-5" value="更改生产状态表中生产状态为2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3rzeb-QBZ-4zEEXuy7DD-1">
           <mxGeometry x="360" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iJJzCOiYFEF3aOLk1mFE-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3rzeb-QBZ-4zEEXuy7DD-1" source="PAILJvHRi7bPy1Ez557a-0" target="iJJzCOiYFEF3aOLk1mFE-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAILJvHRi7bPy1Ez557a-0" value="根据需求在产品半成品生产记录表和半成品原料生产记录表添加记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="3rzeb-QBZ-4zEEXuy7DD-1">
+          <mxGeometry x="318.25" y="280" width="161.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SwnsOSru_UkJd1IyrJRT-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3rzeb-QBZ-4zEEXuy7DD-1" source="iJJzCOiYFEF3aOLk1mFE-0" target="SwnsOSru_UkJd1IyrJRT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iJJzCOiYFEF3aOLk1mFE-0" value="相应按照出库流程修改数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="3rzeb-QBZ-4zEEXuy7DD-1">
+          <mxGeometry x="360" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SwnsOSru_UkJd1IyrJRT-3" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3rzeb-QBZ-4zEEXuy7DD-1" source="SwnsOSru_UkJd1IyrJRT-1" target="PAILJvHRi7bPy1Ez557a-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="560" />
+              <mxPoint x="520" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwnsOSru_UkJd1IyrJRT-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3rzeb-QBZ-4zEEXuy7DD-1" source="SwnsOSru_UkJd1IyrJRT-1" target="SwnsOSru_UkJd1IyrJRT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SwnsOSru_UkJd1IyrJRT-1" value="是否完成？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="3rzeb-QBZ-4zEEXuy7DD-1">
+          <mxGeometry x="360" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SwnsOSru_UkJd1IyrJRT-5" value="生产记录表内新增一条记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="3rzeb-QBZ-4zEEXuy7DD-1">
+          <mxGeometry x="360" y="680" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
